@@ -1,0 +1,43 @@
+/* Custom CSS for Point of Sale Application */
+
+/* Center the application */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for form inputs */
+.form-label {
+    font-weight: bold;
+}
+
+/* Styling for total amount */
+#totalAmount {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Styling for product list */
+.list-group {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Styling for list items */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for buttons */
+.btn {
+    margin-top: 10px;
+}
+
+/* Styling for hr */
+hr {
+    margin: 20px 0;
+}
